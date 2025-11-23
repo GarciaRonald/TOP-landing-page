@@ -1,5 +1,7 @@
 * {
     outline: solid lightgreen;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,6 +17,16 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+#hero {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-text,
+.hero-image {
+    width: 50%;
 }
 
 footer {
