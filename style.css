@@ -24,6 +24,11 @@ ul {
     gap: 20px;
 }
 
+.hero-text,
+.hero-image {
+    width: 50%;
+}
+
 .illustrations {
     display: flex;
     justify-content: center;
@@ -35,9 +40,14 @@ ul {
     width: 150px;
 }
 
-.hero-text,
-.hero-image {
-    width: 50%;
+#testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole-quote {
+    width: 90%;
 }
 
 footer {
