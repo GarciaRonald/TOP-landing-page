@@ -50,6 +50,14 @@ ul {
     width: 90%;
 }
 
+#call-to-action .container {
+    display: flex;
+}
+
+.cta-text {
+    width: 80%;
+}
+
 footer {
     display: flex;
     justify-content: center;
