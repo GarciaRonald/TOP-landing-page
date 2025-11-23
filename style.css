@@ -1,5 +1,4 @@
 * {
-    outline: solid lightgreen;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body {
 #random-info,
 #testimonial,
 #call-to-action {
-    height: 300px;
+    height: 350px;
 }
 
 header,
@@ -31,10 +30,15 @@ footer {
 }
 
 header {
-    height: 60px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header div {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
@@ -46,15 +50,54 @@ ul {
     gap: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 #hero {
+    color: #f9faf8;
     padding: 50px 15%;
     display: flex;
-    gap: 20px;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.hero-text,
+a,
+footer {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero-text,
 .hero-image {
     width: 50%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-image {
+    background: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 #random-info {
@@ -68,11 +111,26 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .illustration-item {
     width: 150px;
+}
+
+.illustration-item div {
+    height: 150px;
+    background: url('https://media.istockphoto.com/id/1954422116/photo/a-laptop-with-a-blank-screen-sits-on-a-stylish-wooden-desk-within-a-loft-style-interior-with.jpg?s=2048x2048&w=is&k=20&c=y-gywjunBHbInS1J6cgOeKz6HTdSNUhGuOYf_u_0yus=');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: 15px 0 5px;
+}
+
+.illustration-item p {
+    text-align: center;
+    color: #1f2937;
 }
 
 #testimonial {
@@ -86,6 +144,19 @@ ul {
     width: 90%;
 }
 
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 #call-to-action {
     display: flex;
     justify-content: center;
@@ -93,15 +164,28 @@ ul {
 }
 
 #call-to-action .container {
+    width: 100%;
+    padding: 40px 20%;
+    border-radius: 10px;
+    background-color: #3882f6;
     display: flex;
+    justify-content: center;
 }
 
 .cta-text {
-    width: 80%;
+    color: #e5e7eb;
+    width: 75%;
+}
+
+.cta-button button {
+    border: solid #e5e7eb;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 footer {
-    height: 60px;
+    color: #e5e7eb;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
