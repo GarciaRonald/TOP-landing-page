@@ -24,6 +24,17 @@ ul {
     gap: 20px;
 }
 
+.illustrations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.illustration-item {
+    width: 150px;
+}
+
 .hero-text,
 .hero-image {
     width: 50%;
