@@ -1,10 +1,27 @@
 * {
     outline: solid lightgreen;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+#hero,
+#random-info,
+#testimonial,
+#call-to-action {
+    height: 300px;
+}
+
+header,
+#random-info,
+#testimonial,
+#call-to-action,
+footer {
+    padding: 0 15%;
+}
+
 header {
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +37,7 @@ ul {
 }
 
 #hero {
+    padding: 50px 15%;
     display: flex;
     gap: 20px;
 }
@@ -27,6 +45,13 @@ ul {
 .hero-text,
 .hero-image {
     width: 50%;
+}
+
+#random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .illustrations {
@@ -50,6 +75,12 @@ ul {
     width: 90%;
 }
 
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #call-to-action .container {
     display: flex;
 }
@@ -59,6 +90,7 @@ ul {
 }
 
 footer {
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
